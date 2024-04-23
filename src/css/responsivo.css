@@ -1,0 +1,68 @@
+@media (max-width: 975px) {
+    body {
+        background: url('../images/bg-mobile.svg') center center no-repeat;
+        background-size: cover;
+        background-color: rgb(103, 75, 175);
+    }
+    
+    .header .logo img{
+        width: 40%;
+        margin-top: 10px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container img {
+        width: 80%;
+        margin: 5px 5px 30px 5px; 
+    }
+
+    .container .informations{
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .container .informations h2 {
+        font-size: 2rem;
+    }
+
+    .container .informations p {
+        font-size: 1.5rem;
+    }
+
+    .container .informations .register {
+        justify-content: center;
+    }
+    .container .informations .register button{
+        font-size: 1.2rem;
+        height: 40px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+    footer .social {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    footer .social i {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        width: 35px;
+        padding: 10px 18px;
+    }
+    footer .social .fa-instagram {
+        font-size: 1.8rem;
+        padding: 8px 18px;
+    }
+    
+}
